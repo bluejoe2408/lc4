@@ -10,13 +10,13 @@ int main() {
     int num1, num2;
     cin>>num1>>num2;
     vector<int> nums1, nums2;
-    for (int i=0; i<=num1; i++)
+    for (int i=0; i<num1; i++)
     {
         int temp;
         cin>>temp;
         nums1.push_back(temp);
     }
-    for (int i=0; i<=num2; i++)
+    for (int i=0; i<num2; i++)
     {
         int temp;
         cin>>temp;
