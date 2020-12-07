@@ -3,7 +3,7 @@
 using namespace std;
 
 double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-
+    
 }
 
 int main() {
@@ -22,6 +22,7 @@ int main() {
         cin>>temp;
         nums2.push_back(temp);
     }
-    cout << "Hello, World!" << endl;
+
+    cout << findMedianSortedArrays(nums1,nums2); << endl;
     return 0;
 }
